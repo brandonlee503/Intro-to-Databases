@@ -15,6 +15,7 @@ if (!$conn) {
 }
 
 // Declare variables
+$sid = $_POST[sid];
 $firstname = $_POST[firstname];
 $lastname = $_POST[lastname];
 $address = $_POST[address];
@@ -25,7 +26,7 @@ $age = $_POST[age];
 $major = $_POST[major];
 
 // Define query
-$sql = "INSERT INTO Students (first_name, last_name, address, city, state, gender, age, major) VALUES ('$firstname', '$lastname', '$address', '$city', '$state', '$gender', '$age', '$major')";
+$sql = "INSERT INTO Students (sid, first_name, last_name, address, city, state, gender, age, major) VALUES ('$sid', '$firstname', '$lastname', '$address', '$city', '$state', '$gender', '$age', '$major')";
 
 // Send query
 if (mysqli_query($conn, $sql)) {
