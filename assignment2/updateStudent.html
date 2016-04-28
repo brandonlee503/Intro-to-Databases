@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Update Student</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	</head>
+<body>
+
+	<h1>Update Student</h1>
+
+	<h3>Fill out the following to update a student's information:</h3>
+
+    <form data-toggle="validator" role="form" autocomplete="off" action="update_student.php" method="post">
+        <div class="form-group col-lg-3">
+            <label for="sid" class="control-label">Student ID</label>
+            <input name="sid" type="text" class="form-control" placeholder="Student ID" required>
+        </div>
+        <div class="form-group col-lg-6">
+            <label for="firstname" class="control-label">First Name</label>
+            <input name="firstname" type="text" class="form-control" placeholder="First Name" required>
+        </div>
+        <div class="form-group col-lg-3">
+            <label for="lastname" class="control-label">Last Name</label>
+            <input name="lastname" type="text" class="form-control" placeholder="Last Name" required>
+        </div>
+        <div class="form-group col-lg-4">
+            <label for="major" class="control-label">Major</label>
+            <input name="major" type="text" class="form-control" placeholder="Major" required>
+        </div>
+      <div class="form-group">
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+
+	<a href="http://people.oregonstate.edu/~leebran/assignment2/List%20All%20Students.php">Click here to list all students!</a>
+
+</body>
+
+</html>
