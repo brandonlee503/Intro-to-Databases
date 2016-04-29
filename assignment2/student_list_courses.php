@@ -28,7 +28,7 @@ echo "Results for the sid: " . $sid;
 echo "<br />";
 echo "Database Format: ";
 echo "<br />";
-echo "department coursenumber grade term";
+echo "department courseNumber grade term";
 echo "<br />";
 
 while ($row = mysqli_fetch_array($result)) {
@@ -40,7 +40,7 @@ while ($row = mysqli_fetch_array($result)) {
     } else {
         echo $row["grade"] . " ";
     }
-    
+
     echo $row["term"] . " ";
     echo "<br />";
 }
