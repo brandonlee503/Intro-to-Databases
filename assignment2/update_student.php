@@ -19,9 +19,10 @@ $sid = $_POST[sid];
 $firstname = $_POST[firstname];
 $lastname = $_POST[lastname];
 $major = $_POST[major];
+$email = $_POST[email];
 
 // Define query
-$sql = "UPDATE Students SET first_name='$firstname', last_name='$lastname', major='$major' WHERE sid='$sid'";
+$sql = "UPDATE Students SET first_name='$firstname', last_name='$lastname', major='$major', email='$email' WHERE sid='$sid'";
 
 // Send query
 if (mysqli_query($conn, $sql)) {
