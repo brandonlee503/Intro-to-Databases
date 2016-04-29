@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Enroll Student</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	</head>
+<body>
+
+	<h1>Enroll Student</h1>
+
+	<h3>Fill out the following to enroll a student into a course:</h3>
+
+    <h5>Possible Courses: CS 161, CS 162, CS 261, MTH 251, MTH 252, MTH 231, ENG 101, HST 101, PE 101, BUS 201</h5>
+
+    <form data-toggle="validator" role="form" autocomplete="off" action="enroll.php" method="post">
+        <div class="form-group col-lg-3">
+            <label for="sid" class="control-label">Student ID</label>
+            <input name="sid" type="text" class="form-control" placeholder="Student ID" required>
+        </div>
+        <div class="form-group col-lg-3">
+            <label for="department" class="control-label">Department</label>
+            <input name="department" type="text" class="form-control" placeholder="Department" required>
+        </div>
+        <div class="form-group col-lg-3">
+            <label for="courseNumber" class="control-label">Course Number</label>
+            <input name="courseNumber" type="text" class="form-control" placeholder="Course Number" required>
+        </div>
+        <div class="form-group col-lg-3">
+            <label for="grade" class="control-label">Grade</label>
+            <input name="grade" type="text" class="form-control" placeholder="Grade" required>
+        </div>
+        <div class="form-group col-lg-3">
+            <label for="term" class="control-label">Term</label>
+            <input name="term" type="text" class="form-control" placeholder="Term" required>
+        </div>
+      <div class="form-group">
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+
+    <br />
+	<a href="http://people.oregonstate.edu/~leebran/assignment2/List%20All%20Students.php">Click here to list all students!</a>
+
+</body>
+
+</html>
