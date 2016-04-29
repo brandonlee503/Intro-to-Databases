@@ -28,7 +28,7 @@ echo "Results for the sid: " . $sid;
 echo "<br />";
 echo "Database Format: ";
 echo "<br />";
-echo "department courseNumber grade term";
+echo "department | courseNumber | grade | term";
 echo "<br />";
 
 while ($row = mysqli_fetch_array($result)) {
