@@ -1,6 +1,8 @@
 # Telly
 
-Meet Telly, our video browsing app focused on enhancing education and engagement among students.
+![alt text](https://github.com/brandonlee503/Intro-to-Databases/blob/master/telly/telly.png "Telly")
+
+Meet [Telly](http://people.oregonstate.edu/~leebran/Database-Project/views/), our video browsing app focused on enhancing education and engagement among students.
 
 Telly is a PHP/MySQL web app that provides various features such as:
 
